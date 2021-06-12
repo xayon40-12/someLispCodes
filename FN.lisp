@@ -1,0 +1,5 @@
+(ql:quickload :fn)
+(in-package :fn)
+(apply (fn* (+ 1 _ _)) '(1 2))
+(fn* (+ _ _))
+λ(+ 1 _)
